@@ -4,44 +4,105 @@
    
        
 <style>
-    body {
-        background-image: url("https://mehedi.asiandevelopers.com/demo/fleming/assets/images/breadcrumb/breadcrumb-1.jpg");
-        filter: grayscale(100%);
-        max-width: 100%;
-        position: relative;
-        z-index: 1;
+    *{
+        margin: 0%;
+        padding: 0%;
     }
-        *{
-            margin: 0%;
-            padding: 0%;
-        }
-     .Aa {
+    h2 {
+        -webkit-text-stroke: 2px white;
+        font-size: 85px;
+        color: transparent;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding-top: 300px;
+    
+    }
+    body {
+        background-image: url("https://mehedi.asiandevelopers.com/demo/fleming/assets/images/breadcrumb/breadcrumb-1.jpg"); 
+        max-width: 100%;
+        z-index: 1;  
+        height: 600px;
+       
+        
+    }
+    .header {
+    max-width: 100%;
+    padding-top: 30px;
+}
+    
+    .logo {
+        max-width: 20%;
+        cursor: pointer;
+    }   
+    li a {
         text-decoration: none;
         color: white;
+        padding-left: 70px;
+        text-transform: capitalize;
         font-size: 18px;
-        font-weight: bold;
-        padding-top: 30px;
-        padding: 20px;
-     }
-     .logo {
-        padding-top: 30px;
-
-     }
-
+        font-family: sans-serif;
+    }
+   
+    .button {
+        float: right;
+        padding: 15px 30px;
+        text-align: center;
+        font-size: 16px;
+       text-transform: uppercase;
+       font-weight: bold;
+       padding-left: 20px;
+    }
+    .button{
+        background-color: orange;
+        border-radius: 25px;
+        border-color: orange;
+        cursor: pointer;
+    }
+    .button-1:hover{
+        background-color: black;
+        color: white;
+       
+    }
+   h4 {
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+    padding-top: 300px;
+padding-right: 90px;
+cursor: pointer;
+text-transform: uppercase;
+   }
+   h4:hover {
+    color: white;
+   }
+   .Aa:hover{
+    color: orange;
+   }
     </style>
 </head>
 <body>
-  
    <div class="header">
-    <img src="https://mehedi.asiandevelopers.com/demo/fleming/assets/images/resources/logo.png" class="logo">
-    <uk>
-        <li><a href="#home" class="Aa"></a></li>
-        <li><a href="#about" class="Aa"></a></li>
-        <li><a href="#services" class="Aa"></a></li>
-        <li><a href="#pages" class="Aa"></a></li>
-        <li><a href="blogs" class="Aa"></a></li>
-        <li><a href="#contact" class="Aa"></a></li>
-    </uk>    
+ <ul>
+    <li>
+        <img src="https://mehedi.asiandevelopers.com/demo/fleming/assets/images/resources/logo.png" class="logo">
+<a href="#home" class="Aa"> home</a>
+<a href="#about" class="Aa" style="color: orange;"> about</a>
+<a href="#services" class="Aa"> services</a>
+<a href="#pages" class="Aa">pages</a>
+<a href="blogs" class="Aa">blogs</a>
+<a href="#contact" class="Aa">contact</a>
+<button class="button button-1">contact with us +</button>
+   </li>
+   </ul>
+   <h4>
+    back to home +
+</h4>
+     <h2>
+        about us
+    </h2>
+   
  </div>
+
 </body>
 </html>
